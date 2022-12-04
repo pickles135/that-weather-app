@@ -23,7 +23,7 @@ const Search = ({ onSearchChange }) => {
 
   const handleOnChange = searchData => {
     setSearch(searchData)
-    onSearchChange(search)
+    onSearchChange(searchData)
   }
 
   return (
